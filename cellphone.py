@@ -7,7 +7,7 @@ class CellPhone:
         self.phone_number = 5555555555
         self.contacts = {}
         self.messages = []
-        self.vibrate = True
+        self.vibrate = False
     def recive_text(self):
         self.text = input(f'send a text to {self.phone_number}')
         print(self.text)
